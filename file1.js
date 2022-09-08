@@ -11,4 +11,6 @@ try {
 }
 */
 
-fs.appendFileSync ('Clase4.txt', 'texto nuevo agregado')
+//fs.appendFileSync ('Clase4.txt', 'texto nuevo agregado') //appendfilesync es para agregar texto a un archivo ya creado
+
+fs.unlinkSync('clase4.txt')
