@@ -26,6 +26,6 @@ fs.appendFile ('clase4.txt','\nSame data', err => {
 
 */
 
-fs.unlink ('fyh.txt', err => {
-    if (!err) console.log("Deleted!!")
+fs.unlink ('fyh.txt', err => { //la accion a hacer
+    if (!err) console.log("Deleted!!") //lo que se mostrará en consola
 })
